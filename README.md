@@ -1,2 +1,5 @@
 # yolo-project-
 Object detection (PPE KIT detection)
+This project focuses on object detection using the YOLOv8 model from the Ultralytics library to identify safety compliance in workplace environments. The model is trained to detect and classify objects such as 'person', 'hard hat', 'high visibility vest', 'mask', 'no mask', 'no hard hat', 'no high visibility vest', and 'ID card'. A custom dataset was created by collecting relevant images, annotating them using the LabelImg tool in Python, and converting the annotations into YOLO format (including bounding box coordinates like height, width, center x, and y). The model was trained with different hyperparameters to optimize accuracy and was tracked using MLflow for experiment management. In addition, an interactive platform was developed where users can upload an image, video, or even stream live video. The system detects violations in real-time and generates a graphical report displaying how many people are following safety rules versus how many are not, offering an insightful visual representation for safety monitoring and compliance tracking.
+Technologies used (Python, YOLO,label img , etc.)
+
