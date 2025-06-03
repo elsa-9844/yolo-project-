@@ -1,0 +1,4 @@
+train: ../train
+val: ../test
+nc: 8
+names: ['person','hard hat','high visibility vest','no mask','no hard hat','mask','no high Visibility vest','id card']
